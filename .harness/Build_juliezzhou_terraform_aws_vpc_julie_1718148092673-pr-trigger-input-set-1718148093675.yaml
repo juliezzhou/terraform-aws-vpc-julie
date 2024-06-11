@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_juliezzhou_terraform_aws_vpc_julie_1718148092673-pr-trigger-input-set
+  identifier: Build_juliezzhou_terraform_aws_vpc_julie_1718148092673prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_juliezzhou_terraform_aws_vpc_julie_1718148092673
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
