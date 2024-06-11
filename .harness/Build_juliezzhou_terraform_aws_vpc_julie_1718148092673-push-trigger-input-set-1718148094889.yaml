@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_juliezzhou_terraform_aws_vpc_julie_1718148092673-push-trigger-input-set
+  identifier: Build_juliezzhou_terraform_aws_vpc_julie_1718148092673pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_juliezzhou_terraform_aws_vpc_julie_1718148092673
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
